@@ -2,10 +2,36 @@
   text-align: center;
 }
 
+.Projects .options {
+  background: #fff;
+  width: fit-content;
+  margin: 20px auto 5px auto;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333;
+  transition: 0.25s;
+}
+
+.Projects .options:hover {
+  transform: scale(1.02);
+}
+
 .Projects .projects-list {
   margin: 0 20px 40px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
+}
+
+.Projects i {
+  margin-right: 3px;
+}
+
+.Projects input {
+  margin-right: 15px;
+}
+
+.Projects input:last-of-type {
+  margin-right: 3px;
 }
