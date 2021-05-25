@@ -30,7 +30,7 @@ function Project(props) {
               target="_blank"
               rel="noreferrer"
             >
-              {button.label}
+              <button>{button.label}</button>
             </a>
           )
         }
