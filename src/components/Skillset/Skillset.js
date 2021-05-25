@@ -1,4 +1,5 @@
 import Title from '../Title/Title.js';
+import Icon from '../Icon/Icon.js';
 
 import { skillset } from '../../data/skillset.js';
 
@@ -9,6 +10,20 @@ function Skillset() {
     <div className="Skillset">
       <span id="skillset" className="scrollto" />
       <Title title="Skillset" />
+      <div className="sections">
+        {
+          skillset.map((section, i) =>
+            <div key={`skillset-${i}`} className="section">
+              <h1>{section.title}</h1>
+              {
+                section.icons.map((item, j) =>
+                  <Icon key={`skillset-${i}-item-${j}`} icon={item} />
+                )
+              }
+            </div>
+          )
+        }
+      </div>
     </div>
   );
 }
