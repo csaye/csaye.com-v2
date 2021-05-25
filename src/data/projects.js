@@ -296,8 +296,7 @@ export const projects = [
   {
     name: "Deserted",
     description: "Forage, build, and innovate on your new island. A creative, ambient survival game.",
-    link: "none",
-    image: "astar.png",
+    video: "https://www.youtube.com/embed/g8Ckftlqdfg",
     buttons: [
       {
         label: "Available Now",
@@ -407,8 +406,7 @@ export const projects = [
   {
     name: "2048 Live",
     description: "\"2048\" controlled through real-time object detection.",
-    link: "none",
-    image: "astar.png",
+    video: "https://www.youtube.com/embed/plsA6wMOhsY",
     buttons: [
       {
         label: "GitHub",
