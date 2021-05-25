@@ -5,7 +5,7 @@ import './Home.css';
 function Home() {
   return (
     <div className="Home">
-      <Title title="Cooper Saye" />
+      <Title title="Cooper Saye" subtitle="web and game developer" />
     </div>
   );
 }

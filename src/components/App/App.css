@@ -1,3 +1,8 @@
 .App {
-  overflow: auto;
+  height: 100%;
+}
+
+.App .content {
+  min-height: calc(100% - 120px);
+  background: #efefef;
 }

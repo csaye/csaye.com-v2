@@ -1,5 +1,10 @@
 * {
     font-family: 'Prompt', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -9,4 +14,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
 button {
   cursor: pointer;
+}
+
+.flex-fill {
+  flex-grow: 1;
 }

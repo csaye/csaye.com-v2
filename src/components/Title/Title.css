@@ -1,11 +1,15 @@
 .Title {
   width: fit-content;
   margin: 0 auto;
+  text-align: center;
 }
 
 .Title h1 {
   font-size: 64px;
-  font-weight: 800;
+}
+
+.Title h2 {
+  margin-top: -8px;
 }
 
 .Title hr {
