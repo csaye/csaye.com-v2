@@ -7,9 +7,10 @@ function Header() {
     <div className="Header">
       <img src={logo} alt="logo" />
       <span className="flex-fill" />
-      <a className="nav-link" href="/">HOME</a>
-      <a className="nav-link" href="projects">PROJECTS</a>
-      <a className="nav-link" href="music">MUSIC</a>
+      <a href="#home">HOME</a>
+      <a href="#contact">CONTACT</a>
+      <a href="#skillset">SKILLSET</a>
+      <a href="#projects">PROJECTS</a>
     </div>
   );
 }

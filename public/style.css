@@ -19,3 +19,8 @@ button {
 .flex-fill {
   flex-grow: 1;
 }
+
+.scrollto {
+  position: relative;
+  bottom: 60px;
+}
