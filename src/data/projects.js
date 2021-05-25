@@ -19,7 +19,8 @@ export const projects = [
       "Firebase",
       "CSS",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "FlexScript",
@@ -44,7 +45,8 @@ export const projects = [
       "Java",
       "C++",
       "JavaScript"
-    ]
+    ],
+    type: "other"
   },
   {
     name: "ImgScript",
@@ -64,7 +66,8 @@ export const projects = [
     icons: [
       "Python",
       "Atom"
-    ]
+    ],
+    type: "other"
   },
   {
     name: "Calendar",
@@ -86,7 +89,8 @@ export const projects = [
       "Firebase",
       "CSS",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "SimpleStore",
@@ -108,7 +112,8 @@ export const projects = [
       "Firebase",
       "CSS",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "Mono3D",
@@ -129,7 +134,8 @@ export const projects = [
       "MonoGame",
       "C#",
       "Visual Studio"
-    ]
+    ],
+    type: "game"
   },
   {
     name: "Mono2D",
@@ -150,7 +156,8 @@ export const projects = [
       "MonoGame",
       "C#",
       "Visual Studio"
-    ]
+    ],
+    type: "game"
   },
   {
     name: "Meta Python",
@@ -166,7 +173,8 @@ export const projects = [
     icons: [
       "Python",
       "IDLE"
-    ]
+    ],
+    type: "other"
   },
   {
     name: "Widget Wall",
@@ -192,7 +200,8 @@ export const projects = [
       "OpenWeather API",
       "Random Word API",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "Python Highlights",
@@ -209,7 +218,8 @@ export const projects = [
       "Python",
       "Pygame",
       "IDLE"
-    ]
+    ],
+    type: "other"
   },
   {
     name: "MinScript",
@@ -225,7 +235,8 @@ export const projects = [
     icons: [
       "Python",
       "IDLE"
-    ]
+    ],
+    type: "other"
   },
   {
     name: "Countdown Tracker",
@@ -247,7 +258,8 @@ export const projects = [
       "Firebase",
       "CSS",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "Bicycle",
@@ -269,7 +281,8 @@ export const projects = [
       "Firebase",
       "CSS",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "Playlist Bot",
@@ -291,7 +304,8 @@ export const projects = [
       "Spotify API",
       "CSS",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "Deserted",
@@ -315,7 +329,8 @@ export const projects = [
       "Audacity",
       "Aseprite",
       "GIMP"
-    ]
+    ],
+    type: "game"
   },
   {
     name: "Ticket Tracker",
@@ -337,7 +352,8 @@ export const projects = [
       "Firebase",
       "CSS",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "Coding Challenges",
@@ -358,7 +374,8 @@ export const projects = [
       "JavaScript",
       "C",
       "Haskell"
-    ]
+    ],
+    type: "other"
   },
   {
     name: "Jamming",
@@ -380,7 +397,8 @@ export const projects = [
       "Spotify API",
       "CSS",
       "Atom"
-    ]
+    ],
+    type: "web"
   },
   {
     name: "Countdown",
@@ -401,7 +419,8 @@ export const projects = [
       "Unity",
       "C#",
       "VSCode"
-    ]
+    ],
+    type: "game"
   },
   {
     name: "2048 Live",
@@ -418,7 +437,8 @@ export const projects = [
       "SDL2",
       "OpenCV",
       "VSCode"
-    ]
+    ],
+    type: "other"
   },
   {
     name: "Sorting Visualization",
@@ -439,7 +459,8 @@ export const projects = [
       "Unity",
       "C#",
       "VSCode"
-    ]
+    ],
+    type: "game"
   },
   {
     name: "Chess",
@@ -461,7 +482,8 @@ export const projects = [
       "C#",
       "VSCode",
       "GIMP"
-    ]
+    ],
+    type: "game"
   },
   {
     name: "A* Visualization",
@@ -483,7 +505,8 @@ export const projects = [
       "C#",
       "VSCode",
       "GIMP"
-    ]
+    ],
+    type: "game"
   },
   {
     name: "Diapixel",
@@ -505,7 +528,8 @@ export const projects = [
       "C#",
       "VSCode",
       "GIMP"
-    ]
+    ],
+    type: "game"
   },
   {
     name: "Computeroid",
@@ -533,6 +557,7 @@ export const projects = [
       "FL Studio",
       "BFXR",
       "GIMP"
-    ]
+    ],
+    type: "game"
   }
 ];

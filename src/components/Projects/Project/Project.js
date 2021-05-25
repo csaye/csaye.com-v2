@@ -4,10 +4,15 @@ import './Project.css';
 
 function Project(props) {
   const id = props.id;
-  const { name, description, link, image, video, buttons, icons } = props.data;
+  const { name, description, link, image, video, buttons, icons, type } = props.data;
 
   return (
     <div className="Project">
+      <div className="type-icon">
+        {type === 'web' && <i className="fas fa-laptop-code icon-blue" />}
+        {type === 'game' && <i className="fas fa-gamepad icon-green" />}
+        {type === 'other' && <i className="fas fa-plus icon-red" />}
+      </div>
       <h1>{name}</h1>
       <p>{description}</p>
       {
