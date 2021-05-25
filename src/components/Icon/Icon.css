@@ -1,0 +1,53 @@
+.Icon div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fas, .fab {
+    margin: 8px;
+    margin-right: 0;
+}
+
+.img-icon {
+  width: 16px;
+  height: 16px;
+  margin: 8px;
+  margin-right: 0;
+}
+
+.icon-red {
+  color: red;
+}
+
+.icon-orange {
+  color: orange;
+}
+
+.icon-yellow {
+  color: #d4bf08;
+}
+
+.icon-green {
+  color: green;
+}
+
+.icon-blue {
+  color: #007bff;
+}
+
+.icon-purple {
+  color: purple;
+}
+
+.icon-black {
+  color: black;
+}
+
+.icon-gray {
+  color: dimgray;
+}
+
+.icon-brown {
+  color: #654321;
+}
