@@ -1,10 +1,11 @@
 .Projects {
   text-align: center;
   background: #efefef;
+  overflow: auto;
 }
 
 .Projects .projects-list {
-  margin: 0 50px;
+  margin: 0 40px 40px 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

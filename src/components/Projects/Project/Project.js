@@ -29,7 +29,6 @@ function Project(props) {
         <iframe
           title={`project-${id}-video`}
           width="560"
-          height="315"
           src={video}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

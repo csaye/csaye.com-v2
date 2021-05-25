@@ -1,9 +1,11 @@
+import Title from '../Title/Title.js';
+
 import './Home.css';
 
 function Home() {
   return (
     <div className="Home">
-      home
+      <Title title="Cooper Saye" />
     </div>
   );
 }

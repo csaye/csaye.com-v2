@@ -7,6 +7,7 @@
   border-radius: 10px;
   margin: 15px;
   transition: 0.25s;
+  box-sizing: border-box;
 }
 
 .Project:hover {
@@ -29,16 +30,30 @@
 }
 
 .Project a img {
-  width: 300px;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 0px 2px 20px #999;
-  transition: 0.25s ease-in-out;
   margin-top: 10px;
   margin-bottom: -7px;
+  transition: 0.25s;
 }
 
 .Project a img:hover {
     box-shadow: 0px 2px 30px #333;
+    transform: scale(1.02);
+}
+
+.Project iframe {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: -7px;
+    box-shadow: 0 2px 20px #999;
+    transition: 0.25s;
+}
+
+.Project iframe:hover {
+    box-shadow: 0 2px 30px #333;
     transform: scale(1.02);
 }
 
@@ -68,20 +83,29 @@
   font-size: 16px;
 }
 
-@media (max-width: 1390px) {
+@media (max-width: 1370px) {
   .Project {
     width: 500px;
   }
-}
-
-@media (max-width: 1160px) {
-  .Project {
-    width: 400px;
+  .Project iframe {
+    height: 250px;
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1140px) {
+  .Project {
+    width: 400px;
+  }
+  .Project iframe {
+    height: 200px;
+  }
+}
+
+@media (max-width: 940px) {
   .Project {
     width: 600px;
+  }
+  .Project iframe {
+    height: 250px;
   }
 }

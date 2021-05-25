@@ -1,9 +1,11 @@
+import Title from '../Title/Title.js';
+
 import './Music.css';
 
 function Music() {
   return (
     <div className="Music">
-      music
+      <Title title="Music" />
     </div>
   );
 }
