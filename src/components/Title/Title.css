@@ -1,0 +1,16 @@
+.Title {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.Title h1 {
+  font-size: 64px;
+}
+
+.Title hr {
+  width: calc(100% + 30px);
+  position: relative;
+  right: 15px;
+  border: 1px outset #000;
+  border-bottom: 0;
+}
