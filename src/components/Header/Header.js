@@ -1,10 +1,10 @@
-import './Navbar.css';
+import './Header.css';
 
 import logo from '../../images/logo.png';
 
-function Navbar() {
+function Header() {
   return (
-    <div className="Navbar">
+    <div className="Header">
       <img src={logo} alt="logo" />
       <span className="flex-fill" />
       <a className="nav-link" href="/">HOME</a>
@@ -14,4 +14,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;
