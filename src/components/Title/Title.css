@@ -5,11 +5,12 @@
 }
 
 .Title h1 {
-  font-size: 64px;
+  font-size: 48px;
+  margin-bottom: -12px;
 }
 
-.Title h2 {
-  margin-top: -8px;
+.Title h1.main {
+  font-size: 64px;
 }
 
 .Title hr {
