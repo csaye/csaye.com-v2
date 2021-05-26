@@ -1,0 +1,37 @@
+.Contact .contacts {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+}
+
+.Contact .contact-div {
+  width: 70px;
+  margin: 0 5px;
+  text-align: center;
+  overflow: auto;
+  transition: 0.25s;
+}
+
+.Contact .contact-div:hover {
+  transform: scale(1.1);
+}
+
+.Contact a {
+  text-decoration: none;
+  color: #555;
+  transition: 0.25s;
+}
+
+.Contact a:hover {
+  color: #007bff;
+}
+
+.Contact i {
+  margin: 0;
+  font-size: 48px;
+  width: 100%;
+}
+
+.Contact p {
+  font-size: 12px;
+}
