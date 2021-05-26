@@ -1,6 +1,8 @@
-# csaye.com-react
+# csaye.com
 
 My personal website rebuilt in React.
+
+[csaye.com](https://csaye.com)
 
 ## Available Scripts
 
