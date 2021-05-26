@@ -15,7 +15,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Firebase",
       "CSS",
       "Atom"
@@ -85,7 +85,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Firebase",
       "CSS",
       "Atom"
@@ -108,7 +108,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Firebase",
       "CSS",
       "Atom"
@@ -192,7 +192,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Firebase",
       "CSS",
       "Datamuse API",
@@ -254,7 +254,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Firebase",
       "CSS",
       "Atom"
@@ -277,7 +277,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Firebase",
       "CSS",
       "Atom"
@@ -300,7 +300,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Spotify API",
       "CSS",
       "Atom"
@@ -348,7 +348,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Firebase",
       "CSS",
       "Atom"
@@ -393,7 +393,7 @@ export const projects = [
       }
     ],
     icons: [
-      "React.js",
+      "React",
       "Spotify API",
       "CSS",
       "Atom"

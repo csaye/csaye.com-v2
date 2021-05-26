@@ -36,7 +36,7 @@ export const icons = {
   "Pygame": <div>Pygame<i className="fas fa-gamepad icon-green" /></div>,
   "Python": <div>Python<img className="img-icon" src={getImg("python.png")} alt="" /></div>,
   "Random Word API": <div>Random Word API<i className="fas fa-random icon-purple" /></div>,
-  "React.js": <div>React.js<i className="fab fa-react icon-blue" /></div>,
+  "React": <div>React<i className="fab fa-react icon-blue" /></div>,
   "Sass": <div>Sass<i className="fab fa-sass icon-pink" /></div>,
   "SDL2": <div>SDL2<i className="fas fa-pencil-ruler icon-purple" /></div>,
   "Shell": <div>Shell<i className="fas fa-terminal icon-black" /></div>,

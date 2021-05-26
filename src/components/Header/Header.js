@@ -5,11 +5,13 @@ import logo from '../../images/logo.png';
 function Header() {
   return (
     <div className="Header">
-      <img src={logo} alt="logo" />
+      <a href="#home">
+        <img src={logo} alt="logo" />
+      </a>
       <span className="flex-fill" />
-      <a href="#home">HOME</a>
-      <a href="#skillset">SKILLSET</a>
-      <a href="#projects">PROJECTS</a>
+      <a className="link" href="#home">HOME</a>
+      <a className="link" href="#skillset">SKILLSET</a>
+      <a className="link" href="#projects">PROJECTS</a>
     </div>
   );
 }

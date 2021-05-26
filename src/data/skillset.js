@@ -35,7 +35,7 @@ export const skillset = [
     title: "Tools",
     icon: <i className="fas fa-tools" />,
     icons: [
-      "React.js",
+      "React",
       "Firebase",
       "MonoGame",
       "Git",

@@ -9,7 +9,6 @@ const DAY_MS = HOUR_MS * 24;
 
 function Action() {
   const [eventJson, setEventJson] = useState(undefined);
-  const [failed, setFailed] = useState(false);
 
   // gets my last action from github
   async function getLastAction() {
@@ -17,7 +16,7 @@ function Action() {
     const url = 'https://api.github.com/users/csaye/events?per_page=1';
     return await fetch(url).then(response => {
       if (response.ok) return response.json();
-      else setFailed(true);
+      else return null;
     // set event json
     }).then(json => {
       setEventJson(json[0]);
@@ -57,8 +56,8 @@ function Action() {
     getLastAction();
   }, []);
 
-  // return empty if failed
-  if (failed) {
+  // return empty if no json
+  if (!eventJson) {
     return <></>;
   }
 
@@ -66,35 +65,29 @@ function Action() {
     <div className="Action">
       <h2>My last action:</h2>
       <hr />
+      {/* event type */}
+      <p>{getTypeDescription(eventJson.type)}</p>
+      {/* event time ago */}
+      <p><i className="far fa-clock" /> {getTimeAgo(eventJson.created_at)} ago</p>
       {
-        eventJson ?
-        <>
-          {/* event type */}
-          <p>{getTypeDescription(eventJson.type)}</p>
-          {/* event time ago */}
-          <p><i className="far fa-clock" /> {getTimeAgo(eventJson.created_at)} ago</p>
-          {
-            // event repository
-            eventJson.repo &&
-            <p>
-              <i className="far fa-bookmark"/>{' '}
-              <a
-                href={`https://github.com/${eventJson.repo.name}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {eventJson.repo.name}
-              </a>
-            </p>
-          }
-          {
-            // event commit
-            (eventJson.payload?.commits &&
-              eventJson.payload.commits.length > 0) &&
-            <p><i className="fas fa-pencil-alt" /> <i>{eventJson.payload.commits[0].message}</i></p>
-          }
-        </> :
-        <p>Loading...</p>
+        // event repository
+        eventJson.repo &&
+        <p>
+          <i className="far fa-bookmark"/>{' '}
+          <a
+            href={`https://github.com/${eventJson.repo.name}`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {eventJson.repo.name}
+          </a>
+        </p>
+      }
+      {
+        // event commit
+        (eventJson.payload?.commits &&
+          eventJson.payload.commits.length > 0) &&
+        <p><i className="fas fa-pencil-alt" /> <i>{eventJson.payload.commits[0].message}</i></p>
       }
     </div>
   );
