@@ -7,7 +7,7 @@ function Icon(props) {
 
   return (
     <div className="Icon">
-      {icons[icon]}
+      {icons[icon] || <b>icon {icon} not found</b>}
     </div>
   );
 }
