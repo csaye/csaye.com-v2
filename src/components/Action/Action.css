@@ -1,0 +1,20 @@
+.Action {
+  text-align: center;
+  background: #fff;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #999;
+  transition: 0.25s;
+}
+
+.Action:hover {
+  transform: scale(1.02);
+}
+
+.Action hr {
+  border-bottom: 0;
+  width: 80%;
+  margin: 2px auto;
+}
