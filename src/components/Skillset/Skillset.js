@@ -14,7 +14,7 @@ function Skillset() {
         {
           skillset.map((section, i) =>
             <div key={`skillset-${i}`} className="section">
-              <h1>{section.title}</h1>
+              <h1>{section.title} {section.icon}</h1>
               {
                 section.icons.map((item, j) =>
                   <Icon key={`skillset-${i}-item-${j}`} icon={item} />

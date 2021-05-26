@@ -1,6 +1,8 @@
 .Skillset .sections {
   display: flex;
   margin: 0 40px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Skillset .section {
@@ -9,6 +11,17 @@
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  flex-grow: 1;
-  flex-basis: 0;
+  width: 250px;
+  box-shadow: 0 0 10px #999;
+  transition: 0.25s;
+}
+
+.Skillset .section:hover {
+  transform: scale(1.02);
+}
+
+.Skillset .section h1 > i {
+  font-size: 24px;
+  margin: 0;
+  margin-left: -2px;
 }
