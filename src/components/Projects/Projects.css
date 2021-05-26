@@ -10,6 +10,7 @@
   border-radius: 5px;
   box-shadow: 0 0 5px #333;
   transition: 0.25s;
+  cursor: default;
 }
 
 .Projects .options:hover {
@@ -24,8 +25,8 @@
   align-items: stretch;
 }
 
-.Projects i {
-  margin-right: 3px;
+.Projects .options i {
+  margin-right: 5px;
 }
 
 .Projects input {

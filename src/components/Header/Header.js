@@ -8,7 +8,6 @@ function Header() {
       <img src={logo} alt="logo" />
       <span className="flex-fill" />
       <a href="#home">HOME</a>
-      <a href="#contact">CONTACT</a>
       <a href="#skillset">SKILLSET</a>
       <a href="#projects">PROJECTS</a>
     </div>

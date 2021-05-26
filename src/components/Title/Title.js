@@ -8,8 +8,8 @@ function Title(props) {
   return (
     <div className="Title">
       {main ? <h1 className="main">{title}</h1> : <h1>{title}</h1>}
-      {subtitle && <h2>{subtitle}</h2>}
       <hr />
+      {subtitle && <h2>{subtitle}</h2>}
     </div>
   );
 }

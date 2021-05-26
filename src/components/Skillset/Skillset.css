@@ -25,3 +25,9 @@
   margin: 0;
   margin-left: -2px;
 }
+
+.Skillset .section hr {
+  width: 80%;
+  margin-top: 5px;
+  border-bottom: 0;
+}
