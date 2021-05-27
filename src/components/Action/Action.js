@@ -26,7 +26,7 @@ function Action() {
   // returns description of given event type
   function getTypeDescription(type) {
     switch (type) {
-      case 'PushEvent': return <>Push to GitHub repository<i className="fas fa-arrow-up" /></>;
+      case 'PushEvent': return <>Pushed to GitHub repository<i className="fas fa-arrow-up" /></>;
       case 'PublicEvent': return <>Made GitHub repository public<i className="fas fa-unlock" /></>;
       case 'CreateEvent': return <>Created GitHub repository<i className="fas fa-plus" /></>;
       default: return type;

@@ -31,20 +31,9 @@
   color: #007bff!important;
 }
 
-.Action {
+.Action, .Skillset .section, .Projects .options, .Project {
   background: #777!important;
-}
-
-.Skillset .section {
-  background: #777!important;
-}
-
-.Projects .options {
-  background: #777!important;
-}
-
-.Project {
-  background: #777!important;
+  box-shadow: 0 0 10px #555!important;
 }
 
 .Project .Icon {
