@@ -1,0 +1,56 @@
+.Header {
+  background: #777!important;
+}
+
+.Header img {
+  filter: none!important;
+}
+
+.Header a.link {
+  color: #ddd!important;
+}
+
+.Header a:hover {
+  color: #007bff!important;
+}
+
+.Home {
+  background: #333!important;
+  color: #ddd;
+}
+
+.Home hr {
+  border-color: #ddd!important;
+}
+
+.Contact a {
+  color: #ddd!important;
+}
+
+.Contact a:hover {
+  color: #007bff!important;
+}
+
+.Action {
+  background: #777!important;
+}
+
+.Skillset .section {
+  background: #777!important;
+}
+
+.Projects .options {
+  background: #777!important;
+}
+
+.Project {
+  background: #777!important;
+}
+
+.Project .Icon {
+  background: #333!important;
+}
+
+.Footer {
+  background: #111!important;
+}
