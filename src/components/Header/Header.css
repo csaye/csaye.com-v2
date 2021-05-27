@@ -13,6 +13,12 @@
 .Header img {
   height: 45px;
   margin-top: 8px;
+  border-radius: 5px;
+  filter: brightness(0);
+}
+
+.Header .switch {
+  margin-left: 12px;
 }
 
 .Header a.link {
