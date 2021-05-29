@@ -30,3 +30,56 @@
 .Header a:hover {
   color: #007bff;
 }
+
+.Header .dropdown {
+  display: none;
+  width: 32px;
+  height: 32px;
+}
+
+.Header .dropbtn {
+  font-size: 32px;
+  outline: none;
+  padding: 0;
+  border-radius: 5px;
+  height: 32px;
+  width: 32px;
+  border: 0;
+  transition: 0.25s;
+  overflow: hidden;
+}
+
+.Header .dropbtn.faceright {
+  transform: rotate(-90deg);
+  margin: 0;
+}
+
+.Header .dropbtn .fas {
+  margin: 0;
+  position: relative;
+  bottom: 7px;
+}
+
+.Header .dropdown-content {
+  background: #fff;
+  position: absolute;
+  right: 10px;
+  padding: 10px;
+  box-shadow: 0 0 3px #333;
+  border-radius: 5px;
+}
+
+.Header .drop-link {
+  display: block;
+  color: #555;
+  text-decoration: none;
+}
+
+@media (max-width: 575px) {
+  .Header a.link {
+    display: none;
+  }
+  .Header .dropdown {
+    display: block;
+  }
+}

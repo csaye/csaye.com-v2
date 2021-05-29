@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import './Header.css';
 
 import logo from '../../images/logo.png';
@@ -7,6 +9,8 @@ const stylesheet = document.getElementById("stylesheet-darkmode");
 stylesheet.disabled = true;
 
 function Header() {
+  const [dropdown, setDropdown] = useState(false);
+
   // toggles darkmode stylesheet
   function setDarkmode(isDarkmode) {
     stylesheet.disabled = !isDarkmode;
@@ -22,9 +26,24 @@ function Header() {
         <span className="slider" />
       </label>
       <span className="flex-fill" />
+
       <a className="link" href="#home">HOME</a>
       <a className="link" href="#skillset">SKILLSET</a>
       <a className="link" href="#projects">PROJECTS</a>
+
+      <div className="dropdown">
+        <button className={dropdown ? "dropbtn" : "dropbtn faceright"} onClick={() => setDropdown(!dropdown)}>
+          <i className="fas fa-caret-down" />
+        </button>
+        {
+          dropdown &&
+          <div className="dropdown-content">
+            <a className="drop-link" href="#home">HOME</a>
+            <a className="drop-link" href="#skillset">SKILLSET</a>
+            <a className="drop-link" href="#projects">PROJECTS</a>
+          </div>
+        }
+      </div>
     </div>
   );
 }
