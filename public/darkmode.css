@@ -6,8 +6,17 @@
   filter: none!important;
 }
 
-.Header a.link {
+.Header a.link, .Header a.drop-link {
   color: #ddd!important;
+}
+
+.Header .dropbtn {
+  background: #333!important;
+  color: #ddd!important;
+}
+
+.Header .dropdown-content {
+  background: #777!important;
 }
 
 .Header a:hover {

@@ -87,7 +87,9 @@ function Action() {
         // event commit
         (eventJson.payload?.commits &&
           eventJson.payload.commits.length > 0) &&
-        <p><i className="fas fa-pencil-alt" /> <i>{eventJson.payload.commits[0].message}</i></p>
+        <p><i className="fas fa-pencil-alt" /> <i>
+          {eventJson.payload.commits[eventJson.payload.commits.length - 1].message}
+        </i></p>
       }
     </div>
   );

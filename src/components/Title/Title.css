@@ -21,3 +21,13 @@
   border-bottom: 0;
   margin: 10px 0 5px 0;
 }
+
+@media (max-width: 575px) {
+  .Title h1.main {
+    font-size: 48px;
+  }
+
+  .Title h2 {
+    font-size: 16px;
+  }
+}
