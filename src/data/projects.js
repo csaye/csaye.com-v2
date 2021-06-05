@@ -1,5 +1,28 @@
 export const projects = [
   {
+    name: "MapMake",
+    description: "A collaborative, online tilemap editor.",
+    link: "https://csaye.com/mapmake",
+    image: "mapmake.png",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://csaye.com/mapmake"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/mapmake"
+      }
+    ],
+    icons: [
+      "React",
+      "Firebase",
+      "CSS",
+      "Atom"
+    ],
+    type: "web"
+  },
+  {
     name: "MonoBuild",
     description: "A command-line tool for cross-platform building in MonoGame.",
     link: "https://github.com/csaye/monobuild",
