@@ -1,5 +1,26 @@
 export const projects = [
   {
+    name: "MonoBuild",
+    description: "A command-line tool for cross-platform building in MonoGame.",
+    link: "https://github.com/csaye/monobuild",
+    image: "monobuild.png",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://github.com/csaye/monobuild#installation"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/monobuild"
+      }
+    ],
+    icons: [
+      "Shell",
+      "Atom"
+    ],
+    type: "other"
+  },
+  {
     name: "DevComms",
     description: "Team communication and coordination all in one place.",
     link: "https://csaye.com/devcomms",
