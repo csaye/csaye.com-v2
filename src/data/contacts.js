@@ -2,7 +2,7 @@ export const contacts = [
   {
     icon: <i className="fas fa-envelope icon-blue" />,
     text: "Email",
-    email: "me@csaye.com"
+    email: "cooper@saye.co"
   },
   {
     icon: <i className="fab fa-youtube icon-red" />,
