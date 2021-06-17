@@ -44,14 +44,14 @@ export const projects = [
     type: "other"
   },
   {
-    name: "DevComms",
+    name: "Devcomms",
     description: "Team communication and coordination all in one place.",
-    link: "https://csaye.com/devcomms",
+    link: "https://devcomms.io",
     image: "devcomms.png",
     buttons: [
       {
         label: "Try it out",
-        link: "https://csaye.com/devcomms"
+        link: "https://devcomms.io"
       },
       {
         label: "GitHub",
@@ -61,6 +61,8 @@ export const projects = [
     icons: [
       "React",
       "Firebase",
+      "WebRTC",
+      "PeerJS",
       "CSS",
       "Atom"
     ],
