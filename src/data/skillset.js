@@ -13,6 +13,9 @@ export const skillset = [
       "CSS",
       "Sass",
       "TypeScript",
+      "CoffeeScript",
+      "Node.js",
+      "JSX"
     ]
   },
   {
@@ -24,11 +27,14 @@ export const skillset = [
       "FL Studio",
       "VSCode",
       "Visual Studio",
-      "Atom/Brackets",
+      "Atom",
       "IDLE",
       "Audacity",
       "BFXR",
-      "GIMP"
+      "GIMP",
+      "Brackets",
+      "Blender",
+      "Trello"
     ]
   },
   {
@@ -36,15 +42,18 @@ export const skillset = [
     icon: <i className="fas fa-tools" />,
     icons: [
       "React",
+      "Next.js",
       "Firebase",
       "MonoGame",
+      "Netlify",
+      "Vercel",
       "Git",
       "GitHub",
       "Angular",
       "Shell",
       "Pygame",
-      "Trello",
-      "Command Line"
+      "Command Line",
+      "Heroku"
     ]
   }
 ];
