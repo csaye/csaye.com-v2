@@ -1,5 +1,26 @@
 export const projects = [
   {
+    name: "Daytrip",
+    description: "Explore any area with a randomly generated one day trip.",
+    link: "https://csaye.com/daytrip",
+    image: "daytrip.png",
+    buttons: [
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/daytrip"
+      }
+    ],
+    icons: [
+      "React",
+      "Next.js",
+      "Yelp API",
+      "FullCalendar",
+      "CSS",
+      "Atom"
+    ],
+    type: "web"
+  },
+  {
     name: "MapMake",
     description: "A collaborative, online tilemap editor.",
     link: "https://csaye.com/mapmake",
