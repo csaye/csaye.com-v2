@@ -1,5 +1,27 @@
 export const projects = [
   {
+    name: "GameScript",
+    description: "A wrapper for common Pygame functions.",
+    link: "https://github.com/csaye/gamescript",
+    image: "gamescript.png",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://github.com/csaye/gamescript#installation"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/gamescript"
+      }
+    ],
+    icons: [
+      "Python",
+      "Pygame",
+      "IDLE"
+    ],
+    type: "game"
+  },
+  {
     name: "Daytrip",
     description: "Explore any area with a randomly generated one day trip.",
     link: "https://daytrip.vercel.app",
