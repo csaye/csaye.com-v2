@@ -25,7 +25,7 @@ export const contacts = [
     link: "https://soundcloud.com/csaye"
   },
   {
-    icon: <i className="fas fa-gamepad icon-red" />,
+    icon: <i className="fab fa-itch-io icon-red" />,
     text: "Itch.io",
     link: "https://csaye.itch.io"
   }

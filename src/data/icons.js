@@ -22,6 +22,7 @@ export const icons = {
   "Datamuse API": <div>Datamuse API<i className="fas fa-book icon-blue" /></div>,
   "Firebase": <div>Firebase<i className="fas fa-fire-alt icon-orange" /></div>,
   "FL Studio": <div>FL Studio<i className="fas fa-pepper-hot icon-orange" /></div>,
+  "FullCalendar": <div>FullCalendar<i className="far fa-calendar icon-blue" /></div>,
   "GIMP": <div>GIMP<i className="fas fa-images icon-brown" /></div>,
   "Git": <div>Git<i className="fab devicon-git-plain icon-orange" /></div>,
   "Git/GitHub": <div>Git/GitHub<i className="fab fa-github icon-black" /></div>,
@@ -54,5 +55,6 @@ export const icons = {
   "Vercel": <div>Vercel<img className="img-icon" src={getImg("vercel.png")} alt="" /></div>,
   "Visual Studio": <div>Visual Studio<i className="fab devicon-visualstudio-plain icon-purple" /></div>,
   "VSCode": <div>VSCode<i className="fas fa-code icon-blue" /></div>,
-  "WebRTC": <div>WebRTC<i className="fas fa-comment-alt icon-purple" /></div>
+  "WebRTC": <div>WebRTC<i className="fas fa-comment-alt icon-purple" /></div>,
+  "Yelp API": <div>Yelp API<i className="fab fa-yelp icon-red" /></div>
 }
