@@ -5,7 +5,7 @@
   margin: 20px auto 10px auto;
   padding: 10px 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px #999;
+  box-shadow: 0 0 10px var(--gray1);
   transition: 0.25s;
 }
 
@@ -20,9 +20,9 @@
 }
 
 .Action a {
-  color: #007bff;
+  color: var(--blue0);
 }
 
 .Action a:hover {
-  color: #3f51b5;
+  color: var(--blue2);
 }

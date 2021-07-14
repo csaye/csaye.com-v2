@@ -17,7 +17,7 @@
   width: calc(100% + 30px);
   position: relative;
   right: 15px;
-  border: 1px solid #555;
+  border: 1px solid var(--gray2);
   border-bottom: 0;
   margin: 10px 0 5px 0;
 }

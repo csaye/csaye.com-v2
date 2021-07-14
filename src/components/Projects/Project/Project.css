@@ -1,6 +1,6 @@
 .Project {
   background: #fff;
-  box-shadow: 0 0 10px #999;
+  box-shadow: 0 0 10px var(--gray1);
   width: 300px;
   padding: 20px;
   padding-top: 10px;
@@ -38,14 +38,14 @@
 .Project a img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 0 10px #999;
+  box-shadow: 0 0 10px var(--gray1);
   margin-top: 10px;
   margin-bottom: -7px;
   transition: 0.25s;
 }
 
 .Project a img:hover {
-    box-shadow: 0 0 10px #555;
+    box-shadow: 0 0 10px var(--gray2);
     transform: scale(1.02);
 }
 
@@ -54,19 +54,19 @@
     border-radius: 10px;
     height: 140px;
     margin-bottom: -7px;
-    box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 10px var(--gray1);
     transition: 0.25s;
 }
 
 .Project iframe:hover {
-    box-shadow: 0 0 15px #333;
+    box-shadow: 0 0 15px var(--gray3);
     transform: scale(1.02);
 }
 
 .Project a button {
   border-radius: 10px;
-  background-color: #2196f3;
-  border: 3px solid #3f51b5;
+  background-color: var(--blue1);
+  border: 3px solid var(--blue2);
   font-weight: bold;
   color: #fff;
   padding: 8px 14px;
@@ -74,7 +74,7 @@
 }
 
 .Project a button:hover {
-  background-color: #3f51b5;
+  background-color: var(--blue2);
 }
 
 .Project .icon-list {
@@ -85,11 +85,11 @@
 }
 
 .Project .Icon {
-  background: #efefef;
+  background: var(--gray0);
   padding: 0 5px;
   border-radius: 10px;
   margin: 5px;
-  box-shadow: 0 0 5px #333;
+  box-shadow: 0 0 5px var(--gray3);
   transition: 0.25s;
   cursor: default;
 }

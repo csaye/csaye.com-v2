@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  box-shadow: 0 0 5px #333;
+  box-shadow: 0 0 5px var(--gray3);
   height: 60px;
   display: flex;
   align-items: center;
@@ -23,12 +23,12 @@
 
 .Header a.link {
   margin: 0 10px;
-  color: #555;
+  color: var(--gray2);
   text-decoration: none;
 }
 
 .Header a:hover {
-  color: #007bff;
+  color: var(--blue0);
 }
 
 .Header .dropdown {
@@ -65,13 +65,13 @@
   position: absolute;
   right: 10px;
   padding: 10px;
-  box-shadow: 0 0 3px #333;
+  box-shadow: 0 0 3px var(--gray3);
   border-radius: 5px;
 }
 
 .Header .drop-link {
   display: block;
-  color: #555;
+  color: var(--gray2);
   text-decoration: none;
 }
 

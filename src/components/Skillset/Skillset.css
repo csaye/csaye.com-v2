@@ -12,7 +12,7 @@
   padding: 10px;
   border-radius: 10px;
   width: 250px;
-  box-shadow: 0 0 10px #999;
+  box-shadow: 0 0 10px var(--gray1);
   transition: 0.25s;
 }
 

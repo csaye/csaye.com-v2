@@ -1,5 +1,5 @@
 .Home {
   min-height: calc(100% - 120px);
-  background: #efefef;
+  background: var(--gray0);
   overflow: auto;
 }

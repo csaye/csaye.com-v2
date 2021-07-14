@@ -66,7 +66,7 @@ button, input, label {
 }
 
 input:checked + .slider {
-  background-color: #333;
+  background-color: var(--gray3);
 }
 
 input:checked + .slider:before {
