@@ -2,9 +2,13 @@ export const projects = [
   {
     name: "Daytrip",
     description: "Explore any area with a randomly generated one day trip.",
-    link: "https://csaye.com/daytrip",
+    link: "https://daytrip.vercel.app",
     image: "daytrip.png",
     buttons: [
+      {
+        label: "Try it out",
+        link: "https://daytrip.vercel.app"
+      },
       {
         label: "GitHub",
         link: "https://github.com/csaye/daytrip"
@@ -15,6 +19,7 @@ export const projects = [
       "Next.js",
       "Yelp API",
       "FullCalendar",
+      "Vercel",
       "CSS",
       "Atom"
     ],
