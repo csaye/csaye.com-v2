@@ -1,5 +1,27 @@
 export const projects = [
   {
+    name: "Symbl",
+    description: "An interpreted symbol-based language inspired by BF.",
+    link: "https://github.com/csaye/symbl",
+    image: "symbl.png",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://github.com/csaye/symbl#installation"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/symbl"
+      }
+    ],
+    icons: [
+      "Python",
+      "Shell",
+      "Atom"
+    ],
+    type: "other"
+  },
+  {
     name: "GameScript",
     description: "A wrapper for common Pygame functions.",
     link: "https://github.com/csaye/gamescript",
