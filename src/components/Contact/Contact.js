@@ -2,7 +2,7 @@ import { contacts } from '../../data/contacts.js';
 
 import './Contact.css';
 
-function Contact() {
+export default function Contact() {
   return (
     <div className="Contact">
       <div className="contacts">
@@ -18,7 +18,7 @@ function Contact() {
               }
               {
                 c.link &&
-                <a href={c.link} target="_blank" rel="noreferrer">
+                <a href={c.link} target="_blank" rel="noopener noreferrer">
                   {c.icon}
                   <p>{c.text}</p>
                 </a>
@@ -30,5 +30,3 @@ function Contact() {
     </div>
   );
 }
-
-export default Contact;

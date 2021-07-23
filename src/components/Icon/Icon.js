@@ -2,7 +2,7 @@ import { icons } from '../../data/icons.js';
 
 import './Icon.css';
 
-function Icon(props) {
+export default function Icon(props) {
   const icon = props.icon;
 
   // if invalid icon, return not found
@@ -22,5 +22,3 @@ function Icon(props) {
     </div>
   );
 }
-
-export default Icon;

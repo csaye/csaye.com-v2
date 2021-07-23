@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer.js';
 
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Header />
@@ -13,5 +13,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

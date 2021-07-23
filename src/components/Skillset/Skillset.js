@@ -5,7 +5,7 @@ import { skillset } from '../../data/skillset.js';
 
 import './Skillset.css';
 
-function Skillset() {
+export default function Skillset() {
   return (
     <div className="Skillset">
       <span id="skillset" className="scrollto" />
@@ -28,5 +28,3 @@ function Skillset() {
     </div>
   );
 }
-
-export default Skillset;

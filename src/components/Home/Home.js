@@ -6,7 +6,7 @@ import Projects from '../Projects/Projects.js';
 
 import './Home.css';
 
-function Home() {
+export default function Home() {
   return (
     <div className="Home">
       <span id="home" className="scrollto" />
@@ -18,5 +18,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

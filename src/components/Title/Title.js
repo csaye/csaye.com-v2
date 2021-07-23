@@ -1,9 +1,7 @@
 import './Title.css';
 
-function Title(props) {
-  const main = props.main;
-  const title = props.title;
-  const subtitle = props.subtitle;
+export default function Title(props) {
+  const { main, title, subtitle } = props;
 
   return (
     <div className="Title">
@@ -13,5 +11,3 @@ function Title(props) {
     </div>
   );
 }
-
-export default Title;

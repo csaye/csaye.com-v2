@@ -1,11 +1,9 @@
 import './Footer.css';
 
-function Footer() {
+export default function Footer() {
   return (
     <div className="Footer">
       © Cooper Saye {new Date().getFullYear()}
     </div>
   );
 }
-
-export default Footer;
