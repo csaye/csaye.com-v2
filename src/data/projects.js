@@ -22,6 +22,30 @@ export const projects = [
     type: "other"
   },
   {
+    name: "SleekScript",
+    description: "A pythonic language that compiles to JavaScript.",
+    link: "https://csaye.com/sleekscript",
+    image: "sleekscript.png",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://csaye.com/sleekscript",
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/sleekscript"
+      }
+    ],
+    icons: [
+      "React",
+      "JavaScript",
+      "CodeMirror",
+      "CSS Modules",
+      "Atom"
+    ],
+    type: "other"
+  },
+  {
     name: "GameScript",
     description: "A wrapper for common Pygame functions.",
     link: "https://github.com/csaye/gamescript",

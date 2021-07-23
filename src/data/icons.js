@@ -3,6 +3,7 @@ function getImg(name) {
 }
 
 export const icons = {
+  "Ace": <div>Ace<i className="far fa-window-restore icon-blue" /></div>,
   "Angular": <div>Angular<i className="fab fa-angular icon-red" /></div>,
   "Aseprite": <div>Aseprite<i className="fas fa-pencil-alt icon-brown" /></div>,
   "Atom": <div>Atom<i className="fas fa-file-alt icon-green" /></div>,
@@ -15,17 +16,17 @@ export const icons = {
   "C": <div>C<i className="fab devicon-c-plain icon-blue" /></div>,
   "C++": <div>C++<i className="fab devicon-cplusplus-plain icon-blue" /></div>,
   "C#": <div>C#<i className="fab devicon-csharp-plain icon-purple" /></div>,
+  "CodeMirror": <div>CodeMirror<i className="far fa-window-restore icon-purple"></i></div>,
   "CoffeeScript": <div>CoffeeScript<i className="fab devicon-coffeescript-original icon-brown" /></div>,
   "Command Line": <div>Command Line<i className="fas fa-terminal icon-gray" /></div>,
   "CSS": <div>CSS<i className="fab fa-css3 icon-blue" /></div>,
-  "CSS/Sass": <div>CSS/Sass<i className="fab fa-css3 icon-blue" /></div>,
+  "CSS Modules": <div>CSS Modules<i className="fab fa-css3 icon-blue" /></div>,
   "Datamuse API": <div>Datamuse API<i className="fas fa-book icon-blue" /></div>,
   "Firebase": <div>Firebase<i className="fas fa-fire-alt icon-orange" /></div>,
   "FL Studio": <div>FL Studio<i className="fas fa-pepper-hot icon-orange" /></div>,
   "FullCalendar": <div>FullCalendar<i className="far fa-calendar icon-blue" /></div>,
   "GIMP": <div>GIMP<i className="fas fa-images icon-brown" /></div>,
   "Git": <div>Git<i className="fab devicon-git-plain icon-orange" /></div>,
-  "Git/GitHub": <div>Git/GitHub<i className="fab fa-github icon-black" /></div>,
   "GitHub": <div>GitHub<i className="fab fa-github icon-black" /></div>,
   "Haskell": <div>Haskell<i className="fab devicon-haskell-plain icon-purple" /></div>,
   "Heroku": <div>Heroku<i className="fab devicon-heroku-original icon-purple" /></div>,
