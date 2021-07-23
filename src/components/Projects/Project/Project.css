@@ -29,13 +29,13 @@
   font-size: 18px;
 }
 
-.Project a {
+.Project .image-link, .Project .project-button {
   display: inline-block;
   width: fit-content;
   height: 0;
 }
 
-.Project a img {
+.Project .image-link > img {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 10px var(--gray1);
@@ -44,9 +44,9 @@
   transition: 0.25s;
 }
 
-.Project a img:hover {
-    box-shadow: 0 0 10px var(--gray2);
-    transform: scale(1.02);
+.Project .image-link > img:hover {
+  box-shadow: 0 0 10px var(--gray2);
+  transform: scale(1.02);
 }
 
 .Project iframe {
@@ -63,7 +63,7 @@
     transform: scale(1.02);
 }
 
-.Project a button {
+.Project .project-button > button {
   border-radius: 10px;
   background-color: var(--blue1);
   border: 3px solid var(--blue2);
@@ -71,9 +71,11 @@
   color: #fff;
   padding: 8px 14px;
   transition: 0.5s;
+  margin: 15px 5px;
+  font-size: 16px;
 }
 
-.Project a button:hover {
+.Project .project-button > button:hover {
   background-color: var(--blue2);
 }
 
@@ -86,19 +88,16 @@
 
 .Project .Icon {
   background: var(--gray0);
-  padding: 0 5px;
   border-radius: 10px;
   margin: 5px;
   box-shadow: 0 0 5px var(--gray3);
   transition: 0.25s;
-  cursor: default;
 }
 
 .Project .Icon:hover {
   transform: scale(1.05);
 }
 
-.Project a button {
-  margin: 15px 5px;
-  font-size: 16px;
+.Project .Icon > a {
+  padding: 0 5px;
 }

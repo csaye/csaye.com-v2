@@ -18,9 +18,10 @@ function Project(props) {
       {
         image &&
         <a
-        href={link}
-        target="_blank"
-        rel="noreferrer"
+          className="image-link"
+          href={link}
+          target="_blank"
+          rel="noreferrer"
         >
           <img
             src={require(`../../../images/projects/${image}`).default}
@@ -44,6 +45,7 @@ function Project(props) {
         {
           buttons.map((button, i) =>
             <a
+              className="project-button"
               key={`project-${id}-button-${i}`}
               href={button.link}
               target="_blank"
