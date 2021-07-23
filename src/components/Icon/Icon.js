@@ -5,9 +5,20 @@ import './Icon.css';
 function Icon(props) {
   const icon = props.icon;
 
+  // if invalid icon, return not found
+  if (!icons[icon]) return (
+    <div className="Icon">{icon} not found</div>
+  );
+
   return (
     <div className="Icon">
-      {icons[icon] || <b>icon {icon} not found</b>}
+      <a
+        href={icons[icon].website}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {icon}{icons[icon].icon}
+      </a>
     </div>
   );
 }
