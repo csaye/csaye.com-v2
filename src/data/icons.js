@@ -3,59 +3,224 @@ function getImg(name) {
 }
 
 export const icons = {
-  "Ace": <div>Ace<i className="far fa-window-restore icon-blue" /></div>,
-  "Angular": <div>Angular<i className="fab fa-angular icon-red" /></div>,
-  "Aseprite": <div>Aseprite<i className="fas fa-pencil-alt icon-brown" /></div>,
-  "Atom": <div>Atom<i className="fas fa-file-alt icon-green" /></div>,
-  "Audacity": <div>Audacity<i className="fas fa-headphones icon-blue" /></div>,
-  "Bash": <div>Bash<i className="fas fa-dollar-sign icon-gray">_</i></div>,
-  "BFXR": <div>BFXR<i className="fas fa-file-audio icon-gray" /></div>,
-  "Bit.ly API": <div>Bit.ly API<i className="fas fa-link icon-green" /></div>,
-  "Blender": <div>Blender<i className="fas fa-cubes icon-orange"></i></div>,
-  "Brackets": <div>Brackets<i className="fas fa-file-code icon-green" /></div>,
-  "C": <div>C<i className="fab devicon-c-plain icon-blue" /></div>,
-  "C++": <div>C++<i className="fab devicon-cplusplus-plain icon-blue" /></div>,
-  "C#": <div>C#<i className="fab devicon-csharp-plain icon-purple" /></div>,
-  "CodeMirror": <div>CodeMirror<i className="far fa-window-restore icon-purple"></i></div>,
-  "CoffeeScript": <div>CoffeeScript<i className="fab devicon-coffeescript-original icon-brown" /></div>,
-  "Command Line": <div>Command Line<i className="fas fa-terminal icon-gray" /></div>,
-  "CSS": <div>CSS<i className="fab fa-css3 icon-blue" /></div>,
-  "CSS Modules": <div>CSS Modules<i className="fab fa-css3 icon-blue" /></div>,
-  "Datamuse API": <div>Datamuse API<i className="fas fa-book icon-blue" /></div>,
-  "Firebase": <div>Firebase<i className="fas fa-fire-alt icon-orange" /></div>,
-  "FL Studio": <div>FL Studio<i className="fas fa-pepper-hot icon-orange" /></div>,
-  "FullCalendar": <div>FullCalendar<i className="far fa-calendar icon-blue" /></div>,
-  "GIMP": <div>GIMP<i className="fas fa-images icon-brown" /></div>,
-  "Git": <div>Git<i className="fab devicon-git-plain icon-orange" /></div>,
-  "GitHub": <div>GitHub<i className="fab fa-github icon-black" /></div>,
-  "Haskell": <div>Haskell<i className="fab devicon-haskell-plain icon-purple" /></div>,
-  "Heroku": <div>Heroku<i className="fab devicon-heroku-original icon-purple" /></div>,
-  "HTML": <div>HTML<i className="fab fa-html5 icon-orange" /></div>,
-  "IDLE": <div>IDLE<img className="img-icon" src={getImg("python.png")} alt="" /></div>,
-  "Java": <div>Java<i className="fab fa-java icon-red" /></div>,
-  "JavaScript": <div>JavaScript<i className="fab fa-js icon-yellow" /></div>,
-  "JSX": <div>JSX<i className="fab fa-react icon-blue" /></div>,
-  "MonoGame": <div>MonoGame<img className="img-icon" src={getImg("monogame.png")} alt="" /></div>,
-  "Netlify": <div>Netlify<img className="img-icon" src={getImg("netlify.png")} alt="" /></div>,
-  "Next.js": <div>Next.js<i className="fab devicon-nextjs-original icon-black" /></div>,
-  "Node.js": <div>Node.js<i className="fab fa-node-js icon-green" /></div>,
-  "OpenCV": <div>OpenCV<i className="fas fa-video icon-green" /></div>,
-  "OpenWeather API": <div>OpenWeather API<i className="fas fa-sun icon-orange" /></div>,
-  "PeerJS": <div>PeerJS<i className="fas fa-plug icon-black" /></div>,
-  "Pygame": <div>Pygame<i className="fas fa-gamepad icon-green" /></div>,
-  "Python": <div>Python<img className="img-icon" src={getImg("python.png")} alt="" /></div>,
-  "Random Word API": <div>Random Word API<i className="fas fa-random icon-purple" /></div>,
-  "React": <div>React<i className="fab fa-react icon-blue" /></div>,
-  "Sass": <div>Sass<i className="fab fa-sass icon-pink" /></div>,
-  "SDL2": <div>SDL2<i className="fas fa-pencil-ruler icon-purple" /></div>,
-  "Shell": <div>Shell<i className="fas fa-file-code icon-black" /></div>,
-  "Spotify API": <div>Spotify API<i className="fab fa-spotify icon-green" /></div>,
-  "Trello": <div>Trello<i className="fab fa-trello icon-blue" /></div>,
-  "TypeScript": <div>TypeScript<i className="fab devicon-typescript-plain icon-blue" /></div>,
-  "Unity": <div>Unity<i className="fab fa-unity icon-black" /></div>,
-  "Vercel": <div>Vercel<img className="img-icon" src={getImg("vercel.png")} alt="" /></div>,
-  "Visual Studio": <div>Visual Studio<i className="fab devicon-visualstudio-plain icon-purple" /></div>,
-  "VSCode": <div>VSCode<i className="fas fa-code icon-blue" /></div>,
-  "WebRTC": <div>WebRTC<i className="fas fa-comment-alt icon-purple" /></div>,
-  "Yelp API": <div>Yelp API<i className="fab fa-yelp icon-red" /></div>
-}
+  "Ace": {
+    icon: <i className="far fa-window-restore icon-blue" />,
+    website: "https://ace.c9.io"
+  },
+  "Angular": {
+    icon: <i className="fab fa-angular icon-red" />,
+    website: "https://angular.io"
+  },
+  "Aseprite": {
+    icon: <i className="fas fa-pencil-alt icon-brown" />,
+    website: "https://www.aseprite.org"
+  },
+  "Atom": {
+    icon: <i className="fas fa-file-alt icon-green" />,
+    website: "https://atom.io"
+  },
+  "Audacity": {
+    icon: <i className="fas fa-headphones icon-blue" />,
+    website: "https://www.audacityteam.org"
+  },
+  "Bash": {
+    icon: <i className="fas fa-dollar-sign icon-gray">_</i>,
+    website: "https://www.gnu.org/software/bash"
+  },
+  "BFXR": {
+    icon: <i className="fas fa-file-audio icon-gray" />,
+    website: "https://www.bfxr.net"
+  },
+  "Bit.ly API": {
+    icon: <i className="fas fa-link icon-green" />,
+    website: "https://dev.bitly.com"
+  },
+  "Blender": {
+    icon: <i className="fas fa-cubes icon-orange" />,
+    website: "https://www.blender.org"
+  },
+  "Brackets": {
+    icon: <i className="fas fa-file-code icon-green" />,
+    website: "http://brackets.io"
+  },
+  "C": {
+    icon: <i className="fab devicon-c-plain icon-blue" />,
+    website: "https://en.wikipedia.org/wiki/C_(programming_language)"
+  },
+  "C++": {
+    icon: <i className="fab devicon-cplusplus-plain icon-blue" />,
+    website: "https://en.wikipedia.org/wiki/C%2B%2B"
+  },
+  "C#": {
+    icon: <i className="fab devicon-csharp-plain icon-purple" />,
+    website: "https://docs.microsoft.com/en-us/dotnet/csharp"
+  },
+  "CodeMirror": {
+    icon: <i className="far fa-window-restore icon-purple" />,
+    website: "https://codemirror.net"
+  },
+  "CoffeeScript": {
+    icon: <i className="fab devicon-coffeescript-original icon-brown" />,
+    website: "https://coffeescript.org"
+  },
+  "Command Line": {
+    icon: <i className="fas fa-terminal icon-gray" />,
+    website: "https://en.wikipedia.org/wiki/Command-line_interface"
+  },
+  "CSS": {
+    icon: <i className="fab fa-css3 icon-blue" />,
+    website: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  "CSS Modules": {
+    icon: <i className="fab fa-css3 icon-blue" />,
+    website: "https://github.com/css-modules/css-modules"
+  },
+  "Datamuse API": {
+    icon: <i className="fas fa-book icon-blue" />,
+    website: "https://www.datamuse.com/api"
+  },
+  "Firebase": {
+    icon: <i className="fas fa-fire-alt icon-orange" />,
+    website: "https://firebase.google.com"
+  },
+  "FL Studio": {
+    icon: <i className="fas fa-pepper-hot icon-orange" />,
+    website: "https://www.image-line.com"
+  },
+  "FullCalendar": {
+    icon: <i className="far fa-calendar icon-blue" />,
+    website: "https://fullcalendar.io"
+  },
+  "GIMP": {
+    icon: <i className="fas fa-images icon-brown" />,
+    website: "https://www.gimp.org"
+  },
+  "Git": {
+    icon: <i className="fab devicon-git-plain icon-orange" />,
+    website: "https://git-scm.com"
+  },
+  "GitHub": {
+    icon: <i className="fab fa-github icon-black" />,
+    website: "https://github.com"
+  },
+  "Haskell": {
+    icon: <i className="fab devicon-haskell-plain icon-purple" />,
+    website: "https://www.haskell.org"
+  },
+  "Heroku": {
+    icon: <i className="fab devicon-heroku-original icon-purple" />,
+    website: "https://www.heroku.com"
+  },
+  "HTML": {
+    icon: <i className="fab fa-html5 icon-orange" />,
+    website: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  "IDLE": {
+    icon: <img className="img-icon" src={getImg("python.png")} alt="" />,
+    website: "https://docs.python.org/3/library/idle.html"
+  },
+  "Java": {
+    icon: <i className="fab fa-java icon-red" />,
+    website: "https://www.java.com"
+  },
+  "JavaScript": {
+    icon: <i className="fab fa-js icon-yellow" />,
+    website: "https://www.javascript.com"
+  },
+  "JSX": {
+    icon: <i className="fab fa-react icon-blue" />,
+    website: "https://reactjs.org/docs/introducing-jsx.html"
+  },
+  "MonoGame": {
+    icon: <img className="img-icon" src={getImg("monogame.png")} alt="" />,
+    website: "https://www.monogame.net"
+  },
+  "Netlify": {
+    icon: <img className="img-icon" src={getImg("netlify.png")} alt="" />,
+    website: "https://www.netlify.com"
+  },
+  "Next.js": {
+    icon: <i className="fab devicon-nextjs-original icon-black" />,
+    website: "https://nextjs.org"
+  },
+  "Node.js": {
+    icon: <i className="fab fa-node-js icon-green" />,
+    website: "https://nodejs.org"
+  },
+  "OpenCV": {
+    icon: <i className="fas fa-video icon-green" />,
+    website: "https://opencv.org"
+  },
+  "OpenWeather API": {
+    icon: <i className="fas fa-sun icon-orange" />,
+    website: "https://openweathermap.org/api"
+  },
+  "PeerJS": {
+    icon: <i className="fas fa-plug icon-black" />,
+    website: "https://peerjs.com"
+  },
+  "Pygame": {
+    icon: <i className="fas fa-gamepad icon-green" />,
+    website: "https://www.pygame.org"
+  },
+  "Python": {
+    icon: <img className="img-icon" src={getImg("python.png")} alt="" />,
+    website: "https://www.python.org"
+  },
+  "Random Word API": {
+    icon: <i className="fas fa-random icon-purple" />,
+    website: "https://random-word-api.herokuapp.com"
+  },
+  "React": {
+    icon: <i className="fab fa-react icon-blue" />,
+    website: "https://reactjs.org"
+  },
+  "Sass": {
+    icon: <i className="fab fa-sass icon-pink" />,
+    website: "https://sass-lang.com"
+  },
+  "SDL2": {
+    icon: <i className="fas fa-pencil-ruler icon-purple" />,
+    website: "https://www.libsdl.org"
+  },
+  "Shell": {
+    icon: <i className="fas fa-file-code icon-black" />,
+    website: "https://en.wikipedia.org/wiki/Shell_script"
+  },
+  "Spotify API": {
+    icon: <i className="fab fa-spotify icon-green" />,
+    website: "https://developer.spotify.com/documentation/web-api"
+  },
+  "Trello": {
+    icon: <i className="fab fa-trello icon-blue" />,
+    website: "https://trello.com"
+  },
+  "TypeScript": {
+    icon: <i className="fab devicon-typescript-plain icon-blue" />,
+    website: "https://www.typescriptlang.org"
+  },
+  "Unity": {
+    icon: <i className="fab fa-unity icon-black" />,
+    website: "https://unity.com"
+  },
+  "Vercel": {
+    icon: <img className="img-icon" src={getImg("vercel.png")} alt="" />,
+    website: "https://vercel.com"
+  },
+  "Visual Studio": {
+    icon: <i className="fab devicon-visualstudio-plain icon-purple" />,
+    website: "https://visualstudio.microsoft.com"
+  },
+  "VSCode": {
+    icon: <i className="fas fa-code icon-blue" />,
+    website: "https://code.visualstudio.com"
+  },
+  "WebRTC": {
+    icon: <i className="fas fa-comment-alt icon-purple" />,
+    website: "https://webrtc.org"
+  },
+  "Yelp API": {
+    icon: <i className="fab fa-yelp icon-red" />,
+    website: "https://www.yelp.com/developers"
+  }
+};
