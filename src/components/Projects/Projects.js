@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-
-import './Projects.css';
-
-import { projects } from '../../data/projects.js';
-
 import Title from '../Title/Title.js';
 import Project from './Project/Project.js';
 
-function Projects() {
+import { useState } from 'react';
+import { projects } from '../../data/projects.js';
+
+import './Projects.css';
+
+export default function Projects() {
   const [webActive, setWebActive] = useState(true);
   const [gameActive, setGameActive] = useState(true);
   const [otherActive, setOtherActive] = useState(true);
@@ -68,5 +67,3 @@ function Projects() {
     </div>
   );
 }
-
-export default Projects;

@@ -2,7 +2,8 @@ import Icon from '../../Icon/Icon.js';
 
 import './Project.css';
 
-function Project(props) {
+export default function Project(props) {
+  // retrieve properties
   const id = props.id;
   const { name, description, link, image, video, buttons, icons, type } = props.data;
 
@@ -21,7 +22,7 @@ function Project(props) {
           className="image-link"
           href={link}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
         >
           <img
             src={require(`../../../images/projects/${image}`).default}
@@ -49,7 +50,7 @@ function Project(props) {
               key={`project-${id}-button-${i}`}
               href={button.link}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <button>{button.label}</button>
             </a>
@@ -66,5 +67,3 @@ function Project(props) {
     </div>
   );
 }
-
-export default Project;

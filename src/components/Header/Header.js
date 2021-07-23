@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import './Header.css';
 
@@ -8,7 +8,7 @@ import logo from '../../images/logo.png';
 const stylesheet = document.getElementById("stylesheet-darkmode");
 stylesheet.disabled = true;
 
-function Header() {
+export default function Header() {
   const [dropdown, setDropdown] = useState(false);
 
   // toggles darkmode stylesheet
@@ -26,13 +26,14 @@ function Header() {
         <span className="slider" />
       </label>
       <span className="flex-fill" />
-
       <a className="link" href="#home">HOME</a>
       <a className="link" href="#skillset">SKILLSET</a>
       <a className="link" href="#projects">PROJECTS</a>
-
       <div className="dropdown">
-        <button className={dropdown ? "dropbtn" : "dropbtn faceright"} onClick={() => setDropdown(!dropdown)}>
+        <button
+          className={dropdown ? "dropbtn" : "dropbtn faceright"}
+          onClick={() => setDropdown(!dropdown)}
+        >
           <i className="fas fa-caret-down" />
         </button>
         {
@@ -47,5 +48,3 @@ function Header() {
     </div>
   );
 }
-
-export default Header;
