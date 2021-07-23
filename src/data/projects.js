@@ -85,10 +85,11 @@ export const projects = [
     icons: [
       "React",
       "Next.js",
+      "JavaScript",
       "Yelp API",
       "FullCalendar",
       "Vercel",
-      "CSS",
+      "CSS Modules",
       "Atom"
     ],
     type: "web"
@@ -110,6 +111,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Firebase",
       "CSS",
       "Atom"
@@ -154,6 +156,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Firebase",
       "WebRTC",
       "PeerJS",
@@ -226,6 +229,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Firebase",
       "CSS",
       "Atom"
@@ -249,6 +253,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Firebase",
       "CSS",
       "Atom"
@@ -333,6 +338,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Firebase",
       "CSS",
       "Datamuse API",
@@ -395,6 +401,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Firebase",
       "CSS",
       "Atom"
@@ -418,6 +425,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Firebase",
       "CSS",
       "Atom"
@@ -441,6 +449,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Spotify API",
       "CSS",
       "Atom"
@@ -489,6 +498,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Firebase",
       "CSS",
       "Atom"
@@ -534,6 +544,7 @@ export const projects = [
     ],
     icons: [
       "React",
+      "JavaScript",
       "Spotify API",
       "CSS",
       "Atom"
