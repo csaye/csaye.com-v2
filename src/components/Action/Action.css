@@ -21,8 +21,10 @@
 
 .Action a {
   color: var(--blue0);
+  text-decoration: none;
 }
 
 .Action a:hover {
   color: var(--blue2);
+  text-decoration: underline;
 }

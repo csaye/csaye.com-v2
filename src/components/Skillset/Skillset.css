@@ -31,3 +31,12 @@
   margin-top: 5px;
   border-bottom: 0;
 }
+
+.Skillset .section .Icon {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.Skillset .section .Icon:hover {
+  color: var(--blue1);
+}
