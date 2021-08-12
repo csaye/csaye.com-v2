@@ -7,6 +7,10 @@ export const icons = {
     icon: <i className="far fa-window-restore icon-blue" />,
     website: "https://ace.c9.io"
   },
+  "Acorn": {
+    icon: <i className="fas fa-leaf icon-brown" />,
+    website: "https://github.com/acornjs/acorn"
+  },
   "Angular": {
     icon: <i className="fab fa-angular icon-red" />,
     website: "https://angular.io"

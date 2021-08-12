@@ -1,5 +1,32 @@
 export const projects = [
   {
+    name: "Pixel Engine",
+    description: "A minimalist online game engine.",
+    link: "https://pixele.vercel.app",
+    image: "pixele.png",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://pixele.vercel.app"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/csaye/pixel-engine"
+      }
+    ],
+    icons: [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "Ace",
+      "Acorn",
+      "Vercel",
+      "CSS Modules",
+      "Atom"
+    ],
+    type: "web"
+  },
+  {
     name: "Symbl",
     description: "An interpreted symbol-based language inspired by BF.",
     link: "https://github.com/csaye/symbl",
