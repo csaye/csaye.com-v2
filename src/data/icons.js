@@ -107,6 +107,10 @@ export const icons = {
     icon: <i className="fab fa-github icon-black" />,
     website: "https://github.com"
   },
+  "GitHub API": {
+    icon: <i className="fab fa-github icon-black" />,
+    website: "https://docs.github.com"
+  },
   "Haskell": {
     icon: <i className="fab devicon-haskell-plain icon-purple" />,
     website: "https://www.haskell.org"

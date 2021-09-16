@@ -194,7 +194,7 @@ export const projects = [
     type: "other"
   },
   {
-    name: "Devcomms",
+    name: "Devcomms Legacy",
     description: "Team communication and coordination all in one place.",
     link: "https://devcomms.io",
     image: "devcomms.png",
@@ -205,7 +205,7 @@ export const projects = [
       },
       {
         label: "GitHub",
-        link: "https://github.com/csaye/devcomms"
+        link: "https://github.com/csaye/devcomms-legacy"
       }
     ],
     icons: [
