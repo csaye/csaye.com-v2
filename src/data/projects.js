@@ -1,5 +1,32 @@
 export const projects = [
   {
+    name: "Devcomms",
+    description: "Text chat with built-in developer widgets.",
+    link: "https://devcomms.io",
+    image: "devcomms2.png",
+    buttons: [
+      {
+        label: "Try it out",
+        link: "https://devcomms.io"
+      },
+      {
+        label: "GitHub",
+        link: "https://github.com/codeconvoy/devcomms"
+      }
+    ],
+    icons: [
+      "React",
+      "Next.js",
+      "GitHub API",
+      "Firebase",
+      "JavaScript",
+      "Vercel",
+      "CSS Modules",
+      "Atom"
+    ],
+    type: "web"
+  },
+  {
     name: "Pixel Engine",
     description: "A minimalist online game engine.",
     link: "https://pixele.vercel.app",
